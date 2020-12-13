@@ -39,7 +39,7 @@ For Linux people, your package manager should be able to handle all of this. If 
 ## Dataset:
 The SMS/Email Spam Collection is a set of SMS tagged messages that have been collected for SMS/Email Spam research. It contains one set of SMS messages in English of 5,567 messages, tagged according being ham (legitimate) or spam.
 
-> You can collect raw dataset from [here](https://raw.githubusercontent.com/ShubhamPy/Spam-Classifier/master/spam.tsv).
+> You can collect raw dataset from [here](https://github.com/sasikirankaye/spam_classifier_test_heroku/blob/main/spam.csv).
 
 The files contain one message per line. Each line is composed by two columns:
 - `Class`- contains the label (ham or spam) 
@@ -52,7 +52,7 @@ The files contain one message per line. Each line is composed by two columns:
 </p>
 
 ## Components:
--  Using TF-IDF for feature extraction of the text data for the messages.
+-  Using Count_vectorizer for feature extraction of the text data for the messages.
 -  Use splits for skewed data(Since the number of ham are far more than the number of spam messages,the data is skewed)
 -  Use stratified shuffled split for the split of skewed data.
 -  Use different standard classifiers for classification of the SMS.
@@ -61,7 +61,7 @@ The files contain one message per line. Each line is composed by two columns:
 ## AccuracyResult:
 <p align="center">
   <br>
-  <img src="https://github.com/ShubhamPy/Spam-Classifier/blob/master/Screenshots/predictionScore.png">
+  <img src="https://github.com/sasikirankaye/spam_classifier_test_heroku/blob/main/predictionScore.png">
 </p>
 
 ## Future Scope:
